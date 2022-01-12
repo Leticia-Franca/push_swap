@@ -6,17 +6,15 @@
 /*   By: lfranca- <lfranca-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/20 22:16:20 by lfranca-          #+#    #+#             */
-/*   Updated: 2021/12/07 17:21:34 by lfranca-         ###   ########.fr       */
+/*   Updated: 2022/01/12 19:46:51 by lfranca-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <string.h>
 # include <unistd.h>
 # include <stdlib.h>
-# include <ctype.h>
 
 typedef struct s_list
 {
