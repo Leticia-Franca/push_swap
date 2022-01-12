@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "push_swap.h"
-#include <stdio.h>
 
 long long int	atoi_long(const char *nptr)
 {
@@ -37,19 +36,4 @@ long long int	atoi_long(const char *nptr)
 		i++;
 	}
 	return (value * sign);
-}
-
-void	print_list(t_stacka *stack_a)
-{
-	t_node	*temporary;
-	int		counter;
-
-	temporary = stack_a->head;
-	counter = 0;
-	while (counter < stack_a->len_inputs)
-	{
-		printf("%d - ", temporary->data);
-		temporary = temporary->next;
-		counter++;
-	}
 }
