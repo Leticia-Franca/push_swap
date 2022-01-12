@@ -6,7 +6,7 @@
 /*   By: lfranca- <lfranca-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/12 15:11:48 by lfranca-          #+#    #+#             */
-/*   Updated: 2022/01/12 15:11:52 by lfranca-         ###   ########.fr       */
+/*   Updated: 2022/01/12 19:14:21 by lfranca-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,8 +84,9 @@ void	small_sorts(t_stacka *stack_a)
 	t_node	*head_b;
 
 	head_b = NULL;
-	//e se forem 2 numeros desordenados apenas?
-	if (stack_a->len_inputs == 3)
+	if (stack_a->len_inputs == 2)
+		rotate_a(stack_a);
+	else if (stack_a->len_inputs == 3)
 		smaller_sort_three(stack_a, &head_b);
 	else if (stack_a->len_inputs > 3)
 	{
@@ -98,5 +99,4 @@ void	small_sorts(t_stacka *stack_a)
 			j++;
 		}
 	}
-	//print_list(stack_a); //depois apagar isso aqui
 }
