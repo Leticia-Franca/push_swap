@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   small_algorithm.c                                  :+:      :+:    :+:   */
+/*   small_sorts.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lfranca- <lfranca-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/16 02:46:26 by lfranca-          #+#    #+#             */
-/*   Updated: 2022/01/11 23:26:36 by lfranca-         ###   ########.fr       */
+/*   Created: 2022/01/12 15:11:48 by lfranca-          #+#    #+#             */
+/*   Updated: 2022/01/12 15:11:52 by lfranca-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,5 +98,5 @@ void	small_sorts(t_stacka *stack_a)
 			j++;
 		}
 	}
-	print_list(stack_a); //depois apagar isso aqui
+	//print_list(stack_a); //depois apagar isso aqui
 }

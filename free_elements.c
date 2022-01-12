@@ -5,13 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: lfranca- <lfranca-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/14 23:03:03 by lfranca-          #+#    #+#             */
-/*   Updated: 2022/01/10 15:58:36 by lfranca-         ###   ########.fr       */
+/*   Created: 2022/01/12 15:09:06 by lfranca-          #+#    #+#             */
+/*   Updated: 2022/01/12 15:09:10 by lfranca-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./push_swap.h"
-#include <stdio.h>
 
 void	free_argvs(t_stacka *stack_a)
 {
@@ -57,7 +56,6 @@ void	delete_node(t_node **node_a, t_stacka *stack_a)
 	}
 	else
 	{
-		printf("dessa vez a node_a nao era a head_a a ser excluida\n");
 		free((*node_a)->prev);
 		free((*node_a)->next);
 		free((*node_a));

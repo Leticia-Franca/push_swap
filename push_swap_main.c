@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: lfranca- <lfranca-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/08 12:27:21 by lfranca-          #+#    #+#             */
-/*   Updated: 2022/01/10 10:09:44 by lfranca-         ###   ########.fr       */
+/*   Created: 2022/01/12 15:11:05 by lfranca-          #+#    #+#             */
+/*   Updated: 2022/01/12 15:12:39 by lfranca-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,7 +87,7 @@ static void	store_input(char *argv[], int count_args)
 int	main(int argc, char *argv[])
 {
 	if (argc < 2)
-		ft_error();
+		exit(0);
 	if (argc >= 2)
 	{
 		store_input(&argv[1], argc - 1);
