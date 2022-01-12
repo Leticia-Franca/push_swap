@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: lfranca- <lfranca-@student.42sp.org.br>    +#+  +:+       +#+         #
+#    By: coder <coder@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/07 17:22:34 by lfranca-          #+#    #+#              #
-#    Updated: 2022/01/11 23:31:58 by lfranca-         ###   ########.fr        #
+#    Updated: 2022/01/12 14:44:21 by coder            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,9 +14,9 @@ NAME	=	push_swap
 
 LIBFT	=	./libft/libft.a
 
-SRC		=	actions.c small_sorts.c atoi_long.c free_elements.c\
-			push_swap_main.c send_to_sort.c simplify_numbers.c verify_errors.c\
-			radix_sort.c\
+SRC		=	push_act.c rotate_swap_act.c small_sorts.c atoi_long.c\
+			free_elements.c push_swap_main.c send_to_sort.c simplify_numbers.c\
+			verify_errors.c radix_sort.c\
 
 OBJ		=	$(SRC:.c=.o)
 
