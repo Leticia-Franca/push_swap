@@ -6,7 +6,7 @@
 /*   By: lfranca- <lfranca-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/14 23:31:33 by lfranca-          #+#    #+#             */
-/*   Updated: 2022/01/12 15:11:44 by lfranca-         ###   ########.fr       */
+/*   Updated: 2022/01/12 19:59:05 by lfranca-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,9 +92,3 @@ void	simplify_numbers(t_stacka *stack_a)
 	}
 	passing_into_input(stack_a, &st);
 }
-
- /* GERAR INPUT DENTRO DE UM RANGE ALEATORIO NO TERMINAL:::::::::::::::::: 
- 
- MYVAR=$(seq 500 | shuf) // esse 500 é o 'n' e pode ser substituido pelo total de elementos do range, de 1 até n, basicamente
- ./push_swop2 $MYVAR
- */
